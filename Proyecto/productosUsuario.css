@@ -1,0 +1,122 @@
+body {
+    font-family: 'Nanum Brush Script', cursive;
+    background-color: #D9B382;
+    margin: 0;
+   /* padding: 20px;*/
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.navegador{
+    width: 100%;
+    background-color: #F5F5DC;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Nanum Brush Script', cursive;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+}
+
+.Menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.Menu:hover{
+    color: #000000;
+}
+
+.submenu{
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.submenu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.carrito {
+    width: 5%;
+    height: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #000000;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.Product {
+    background-color: #415D43;
+    border-radius: 16px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+}
+
+.Product h4 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.Product p {
+    color: #ffffff;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #4984689a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #376354;
+}

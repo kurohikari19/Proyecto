@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E2725B;
+}
+
+.titulo{
+    color: #F5F5DC;
+    margin-left: 43%;
+    font-size: 50px;
+}
+
+.form-element{
+    color: #F5F5DC;
+    margin-left: 43%;
+    font-size: 50px;
+}
+
+.etiqueta{
+    color: #F5F5DC;
+    text-align: left;
+    font-size: 20px;
+    padding: 0px;
+}
+
+button{
+    color: #F5F5DC;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 42.5%;
+    margin-top: 50px;
+    background-color: #654321;
+    border: none;
+    border-radius: 15px;
+}
+

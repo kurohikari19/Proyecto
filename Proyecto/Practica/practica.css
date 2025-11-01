@@ -1,0 +1,37 @@
+.container {
+    background-color: #ffffff;
+  }
+  
+  .container:hover {
+    background-color: #000000;
+  }
+  
+  .container a:link {
+    color: #00ff15;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .container a:visited {
+    color: #ff0000;
+  }
+  
+  .container a:focus {
+    color: #0000ff;
+  }
+  
+  .container a:active {
+    color: #ffff00;
+  }
+
+  button:enabled {
+    background-color: #8b0000;
+    color: white;
+    
+  }
+
+  button:disabled {
+    background-color: gray;
+    color: white;
+ }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registro de Productos</title>
+        <link rel="stylesheet" href="registroProductos.css">
+    </head>
+
+    <nav class="navegador">
+        <div style="text-align: center;">
+            
+            <img src="assets/logo.png" alt="Logo" class="logo">
+
+                <a href="registroProductos.html" class="Menu">Registro productos</a>
+                <a href="productosAdmin.php" class="Menu">Productos</a>
+                <a href="logout.php" class="Menu">Cerrar sesión</a>
+        </div>
+    </nav>
+
+    <body>
+
+
+        <section>
+            <h1>Registro de Productos</h1>
+            <div>
+                <form method="POST" action="registroProductos.php" name="signin-form" enctype="multipart/form-data">
+                    <div class="form-element">
+                        <label>Personaje</label>
+                        <input type="text" name="personaje" required />
+                    </div>
+                    <div class="form-element">
+                        <label>Categoria</label>
+                        <input type="text" name="tipo" required />
+                    </div>
+                    <div class="form-element">
+                        <label>Descripcion</label>
+                        <input type="text" name="descripcion" required />
+                    </div>
+                    <div class="form-element">
+                        <label>Tamaño</label>
+                        <input type="text" name="tamano" required />
+                    </div>
+                    <div class="form-element">
+                        <label>Stock</label>
+                        <input type="text" name="stock" required />
+                    </div>
+                    <div class="form-element">
+                        <label>Precio</label>
+                        <input type="text" name="precio" required />
+                    </div>
+                    <div class="form-element">
+                        <label for="imagen">Imagen</label>
+                        <input type="file" id="imagen" name="imagen" accept="image/*" required />
+                    </div>
+                    <button type="submit" name="register" value="register">Registrar Producto</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

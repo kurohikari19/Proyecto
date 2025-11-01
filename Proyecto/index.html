@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekCave</title>
+    <link rel="stylesheet" href="estiloIndex.css">
+</head>
+<body>
+    <div class="contenedor">
+
+        <section>
+            <nav class="navegador">
+                <div>
+                    <img src="assets/logo.png" alt="Logo" class="logo">
+
+                    <details class="Menu">
+                        <summary>Figuras</summary>
+                        <li class = "submenu">
+                            <a href="productosUsuario.php">Anime</a>
+                        </li>
+                        <li class = "submenu">
+                            <a href="productosUsuario.php">Videojuegos</a>
+                        </li>
+                        <li class = "submenu">
+                            <a href="productosUsuario.php">Películas</a>
+                        </li>
+                    </details>
+
+                    <details class="Menu">
+                        <summary>Cuenta</summary>
+                        <li class = "submenu">
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li class = "submenu">
+                            <a href="registro.html">Registro</a>
+                        </li>
+                        <li class="submenu">
+                            <a href="logout.php">Log Out</a>
+                        </li>
+                    </details>
+                    
+                    <details class="Menu">
+                        <summary>Quejas y sugerencias</summary>
+                        <li class="submenu">
+                            <a href="https://www.facebook.com/">Contactanos</a>
+                        </li>
+                    </details>
+
+                    <a href="verCarrito.php">
+                        <img src="assets/carrito.png" alt="Carrito" class="carrito">
+                    </a>
+                    
+                </div>
+            </nav>
+        </section>
+
+        <section>
+            <div class="bienvenida">
+                <h1 class="titulo">¡Bienvenido a nuestra tienda en línea!</h1>
+                <p class="parrafo_sin_fondo">En esta página podrás encontrar figuras de tus animes, videojuegos y películas favoritas.</p>
+                <p class="parrafo_sin_fondo">¡No esperes más y adquiere tus figuras favoritas!</p>
+            <!--<img src="assets/funko gojo.png" alt="Figura de gojo" class="figura">
+                <img src="assets/spiderman.png" alt="Figura de spiderman" class="figura">
+                <img src="assets/vegito.png" alt="Figura de vegito" class="figura">   -->
+            </div>
+
+            <div class="carrusel" id="carrusel">
+                <img src="assets/funko gojo.png" alt="Figura de gojo" class="active" />
+                <img src="assets/spiderman.png" alt="Figura de spiderman" />
+                <img src="assets/vegito.png" alt="Figura de vegito" />
+                <button class="boton prev" id="prev">&#10094;</button>
+                <button class="boton next" id="next">&#10095;</button>
+            </div>
+                
+        </section>
+
+        <section>
+            <div class="MisionVision">
+                <h2 class="titulo2">Mision</h2>
+                <p class="parrafo_con_fondo">
+                    Brindar a los coleccionistas y fanaticos
+                    la mejor seleccion de figuras coleccionables,
+                    ofreciendo productos de alta calidad y 
+                    ediciones exclusivas, con un servicio excepcional
+                    que garantice una experiencia unica en
+                    cada compra. Nos apasiona conectar a
+                    las personas con sus personajes y universos
+                    favoritos, convirtiendo su aficion en una 
+                    coleccion invaluable.
+                </p>
+            </div>
+            <img src="assets/miku.svg" alt="Hatsune Miku" class="miku">
+            <div class="MisionVision">
+                <h2 class="titulo2">Vision</h2>
+                <p class="parrafo_con_fondo">
+                    Ser la tienda lider en figuras coleccionables, 
+                    reconocida por nuestra variedad, calidad y 
+                    exclusividad en productos, así como por nuestra 
+                    comunidad apasionada de coleccionistas. 
+                    Aspiramos a expandirnos a nivel nacional e 
+                    internacional, innovando constantemente en 
+                    nuestras ofertas y brindando experiencias 
+                    inolvidables a nuestros clientes.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h1 class="titulo_3">
+                Encuentranos
+                en
+            </h1>
+            <img src="assets/Flecha.png" alt="Flecha" class="flecha">
+            <img src="assets/ubicacion.png" alt="Ubicacion del lugar" class="ubicacion">
+        </section>
+        
+        <section>
+            <footer class="pie">
+                <h1 class="titulo_3">Redes Sociales</h1>
+                <a href="https://www.facebook.com/">
+                    <img src="assets/facebook.png" alt="facebook" class="red-social">
+                    <p class="parrafo4">GeekCave</p>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="assets/instagram.png" alt="instagram" class="red-social">
+                    <p class="parrafo4">GeekCave</p>
+                </a>
+                <a href="https://www.tiktok.com/">
+                    <img src="assets/tiktok.svg" alt="tiktok" class="red-social tiktok">
+                    <p class="parrafo4">GeekCave</p>
+                </a>
+                <a href="https://www.x.com">
+                    <img src="assets/x.png" alt="x" class="red-social">
+                    <p class="parrafo4">GeekCave</p>
+                </a>
+            </footer>
+        </section>
+    </div>
+    <script src="carrusel.js"></script>
+</body>
+</html>

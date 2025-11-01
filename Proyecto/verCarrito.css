@@ -1,0 +1,160 @@
+body {
+    font-family: 'Nanum Brush Script', cursive;
+    background-color: #D9B382;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.container {
+    margin-top: 15%;
+    width: 100%;
+    max-width: 1100px;
+    background-color: #415D43;
+    border-radius: 16px;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #498467;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-bottom: 1px solid #355E3B;
+}
+
+th {
+    background-color: #355E3B;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #4C7B61;
+}
+
+img {
+    border-radius: 8px;
+    border: 2px solid #fff;
+    background-color: #ffffff;
+    max-width: 80px;
+}
+
+a.volver {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #000000;
+    text-decoration: none;
+}
+
+a.volver:hover {
+    text-decoration: underline;
+}
+
+.eliminar {
+    color: white;
+    background-color: #8B0000;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.eliminar:hover {
+    background-color: #B22222;
+}
+
+
+.navegador{
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background-color: #F5F5DC;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Nanum Brush Script', cursive;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+
+.Menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.Menu:hover{
+    color: #000000;
+}
+
+.submenu{
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.submenu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: none;
+    border: none;
+    
+}
+
+.carrito {
+    width: 5%;
+    height: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button {
+    background-color: #4c8654;
+    color: white;
+    border: 1px solid #192c1c;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}

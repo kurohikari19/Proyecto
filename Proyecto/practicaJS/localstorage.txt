@@ -1,0 +1,83 @@
+El local storage es una funcionalidad de los navegadores 
+que permite a los desarrolladores guardar información en 
+el navegador del usuario. Es parte de Web Storage API 
+[API de Almacenamiento Web] junto a session storage.
+
+El local storage funciona tomando información en formato 
+de pares clave-valor y la conserva aun cuando el usuario 
+actualiza la página o cierra la pestaña o el navegador.
+
+Las principales diferencias entre localstorage y 
+sessionstorage son la persistencia de la información 
+almacenada y su alcance.
+
+En el local storage la información permanece disponible 
+aun cuando la pestaña o la ventana del navegador se 
+cierra, pero la borra cuando la información está 
+almacenada en session storage.
+
+Además, es posible acceder a la información almacenada en 
+el local storage desde múltiples pestañas o ventanas del 
+navegador, mientras que solo se puede acceder a la 
+información almacenada en session storage desde pestañas o 
+ventanas específicas del navegador porque no se comparte.
+
+    Cómo almacenar información en el Local Storage
+    Para almacenar información en el local storage, se usa en el  
+    método setItem(). Este método lleva dos argumentos, un clave 
+    y un valor.
+
+    localStorage.setItem(key, value)
+
+    Si la clave no existe en el local storage, el método setItem() 
+    va a crear una nueva clave y asignarle el valor dado. Pero si 
+    en el local storage ya existe una clave con el mismo nombre, 
+    el valor va a ser reemplazado con el nuevo valor.
+
+Cómo leer información almacenada en el Local Storage
+Para recuperar y usar la información del local storage, puedes 
+utilizar el método getItem(). Este método lleva una clave como 
+argumento.
+
+localStorage.getItem(key)
+
+Si la clave existe en el local storage, el método devuelve el 
+valor de esa clave. Caso contrario, devuelve null
+
+    Cómo borrar información del Local Storage
+    Hay dos métodos para borrar información del local storage. 
+    Uno es el método removeItem() y el otro es el método clear()
+
+    El método removeItem() se utiliza cuando quieres borrar un 
+    solo ítem del local storage. El método lleva la clave como 
+    argumento y borra el correspondiente par clave-valor del 
+    local storage.
+
+    localStorage.removeItem(key)
+
+    Si en vez de borrar un solo par clave-valor quieres borrar toda 
+    la información almacenada en el local storage, el local storage 
+    tiene un método para eso- el método clear()
+
+    localStorage.clear()
+
+    El método clear()borra todos los pares clave-valor del local 
+    storage para el dominio actual.
+
+Cómo obtener el nombre de una clave en el Local Storage
+
+Si quisieras obtener el nombre de una clave en un índice particular 
+del local storage, puedes usar el método key(). Este método lleva 
+como argumento un número y devuelve el nombre de la clave del índice 
+especificado.
+
+localStorage.key(0)
+
+El ejemplo de arriba devuelve el nombre de la clave del índice cero. 
+Si no hay clave en el índice especificado, el método devuelve null.
+
+
+
+
+Areal, C. (2024, 7 mayo). Cómo usar LocalStorage en JavaScript. freeCodeCamp.org. 
+https://www.freecodecamp.org/espanol/news/como-usar-localstorage-en-javascript/

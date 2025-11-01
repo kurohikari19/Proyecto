@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 20%;
+    box-sizing: border-box;
+}
+
+.imagen{
+    color: black;
+    background-color: red;
+    font-size: 200%;
+    position: static;
+    top: 0%;
+    margin: 0%;
+}
+
+.descripcion{
+    color: darkgreen;
+    background-color: rgb(94, 25, 25);
+    font-size: 200%;
+    position: relative;
+}
+
+.precio{
+    color: blue;
+    background-color: cadetblue;
+    font-size: 200%;
+    position: absolute;
+}
+
+.agregar{
+    color: darkorange;
+    background-color: blueviolet;
+    font-size: 200%;
+    position: fixed;
+    top: -20%;
+    margin: 0%;
+    width: 1px;
+    height: 1px;
+}

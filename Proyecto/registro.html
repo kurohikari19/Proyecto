@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registro</title>
+        <link rel="stylesheet" href="registro.css">
+    </head>
+<html>
+    <img src="assets/checkmark.png" alt="Icono de checkmark" width="100" height="100" style="display: inline-block; vertical-align: middle; margin-left: 46%;">
+    <h1 class="titulo">REGISTER</h1>
+    <section>
+        <div>
+            <form method="POST" action="registro.php" name="singing-form">
+                <div class="form-element">
+                    <label class="etiqueta">USER<br></label>
+                    <input type="text" id="nombre" name="nombre"/>
+                </div>
+                <div class="form-element">
+                    <label class="etiqueta">EMAIL<br></label>
+                    <input type="correo" id="email" name="email" required/>
+                </div>
+                <div class="form-element">
+                    <label class="etiqueta">PASSWORD<br></label>
+                    <input type="password" id="passwd" name="passwd" required/>
+                </div>
+                <button type="submit" name="login" value="login">CREATE ACCOUNT</button>
+            </form>
+        </div>
+    </section>
+</html>
